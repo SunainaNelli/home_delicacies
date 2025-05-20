@@ -1,0 +1,82 @@
+
+.cart-component {
+    
+   
+  
+    display: flex;
+    flex-direction: column;
+    
+    padding: 20px;
+    border-left: 2px solid #ccc;  
+}
+
+.cart-component select {
+    width: 50%;
+    padding: 5px;
+    border-radius: 30px;
+    cursor: pointer;
+    
+}
+.cart-component option {
+    background-color: white;
+}
+.cart-component select:hover {
+    background-color: gainsboro
+}
+.cart-component h3 {
+    font-family: cursive;
+    text-align: center;
+}
+
+.button-addcart, .button-buynow {
+    width: 80%;
+    padding: 10px;
+    margin: 10px 0;
+    cursor: pointer;
+    border: 2px solid black;
+    border-radius: 30px;
+    background-color: white;
+    color: black;
+    font-size: 16px;
+    transition: background-color 0.3s, transform 0.1s;
+}
+
+.button-addcart:hover, .button-buynow:hover {
+    background-color: rosybrown;
+}
+
+.button-addcart:active, .button-buynow:active {
+    transform: translateY(2px); /* Simulate button press */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.add-remove-div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    border: 1px solid #ccc;
+    border-radius: 30px;
+    width: fit-content;
+    margin-top: none;
+    margin-bottom: 50px;
+}
+
+.add-remove-div button {
+    cursor: pointer;
+    border: none;
+    background-color: white;
+    color: black;
+    padding: 5px 10px;
+    border-radius: 30px;
+    transition: background-color 0.3s;
+}
+
+.add-remove-div button:hover {
+    background-color: gainsboro;
+}
+
+.add-remove-div span {
+    font-size: 16px;
+    font-weight: bold;
+}

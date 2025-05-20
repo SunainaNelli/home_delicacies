@@ -1,0 +1,95 @@
+.breadcrumb {
+    margin-bottom: 10px;
+}
+
+.breadcrumb a {
+    text-decoration: none;
+    color:grey;
+}
+
+.breadcrumb a:hover {
+    color:black;
+}
+
+.cart-card {
+    display: flex;
+    border-style: none none double none;
+    justify-content: space-around;
+    width:100%;
+}
+
+.add-remove{
+    border:1px solid #ccc;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    padding: 2px;
+    border-radius: 30px;
+}
+.add-remove button{
+    cursor: pointer;
+    border: none;
+    background-color: white;
+    color: black;
+    padding: 5px 10px;
+    border-radius: 30px;
+    transition: background-color 0.3s;
+}
+.add-remove button:hover{
+    background-color: gainsboro;
+}
+
+.cart-card img {
+    max-width: 100%;
+    max-height: 150px;
+    height: auto;
+    width: auto;
+    border-radius: 8px;
+}
+.add-remove-container{
+    
+    display:flex;
+    justify-content: center;
+    
+    margin:auto;
+    
+
+}
+.remove-button{
+    margin-left: 5px;
+    cursor: pointer;
+    border-radius: 30px;
+    border: 1px solid #ccc;
+    
+    
+}
+.cart-container{
+   border-style: hidden;
+   margin-top: 20px;
+}
+.cart-container h3{
+    text-align: center;
+    
+}
+.payment-button{
+    width: 80%;
+    padding: 10px;
+    margin: 10px 0;
+    cursor: pointer;
+    border: 2px solid black;
+    border-radius: 30px;
+    background-color: white;
+    color: black;
+    font-size: 16px;
+    transition: background-color 0.3s, transform 0.1s;
+}
+
+.payment-button:hover {
+    background-color: rosybrown;
+}
+
+.payment-button:active{
+    transform: translateY(2px); /* Simulate button press */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
