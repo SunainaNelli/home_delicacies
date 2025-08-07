@@ -9,11 +9,11 @@ const Footer = () => {
                 <div className='footer-section'>
                     <h4>Quick Links</h4>
                     <ul>
-                        <li><Link to='/home'>Home</Link></li>
-                        <li><Link to='/home/pickles'>Pickles</Link></li>
-                        <li><Link to='/home/podi'>Podi</Link></li>
-                        <li><Link to='/home/snacks'>Evening Snacks</Link></li>
-                        <li><Link to='/cart'>Cart</Link></li>
+                        <li><Link to='/home_delicacies/home'>Home</Link></li>
+                        <li><Link to='/home_delicacies/home/pickles'>Pickles</Link></li>
+                        <li><Link to='/home_delicacies/home/podi'>Podi</Link></li>
+                        <li><Link to='/home_delicacies/home/snacks'>Evening Snacks</Link></li>
+                        <li><Link to='/home_delicacies/cart'>Cart</Link></li>
                     </ul>
                 </div>
                 <div className='footer-section'>

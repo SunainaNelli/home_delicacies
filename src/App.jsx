@@ -41,13 +41,13 @@ function App() {
           <Navbar/>
           <Routes>
             <Route path='/home_delicacies' element={<Home />}/>
-            <Route path='/home' element={<Home />}/>
-            <Route path='/home/pickles' element={<PicklesCategory/>}/>
-            <Route path='/home/podi' element={<PodiCategory/>}/>
-            <Route path='/home/snacks' element={<SnacksCategory/>}/>
-            <Route path='/cart' element={<Cart/>}/>
-            <Route path='product/:product'element={<ProductDetail />}/>
-            <Route path='/payment' element={<Payment/>}/>
+            <Route path='/home_delicacies/home' element={<Home />}/>
+            <Route path='/home_delicacies/home/pickles' element={<PicklesCategory/>}/>
+            <Route path='/home_delicacies/home/podi' element={<PodiCategory/>}/>
+            <Route path='/home_delicacies/home/snacks' element={<SnacksCategory/>}/>
+            <Route path='/home_delicacies/cart' element={<Cart/>}/>
+            <Route path='/home_delicacies/product/:product'element={<ProductDetail />}/>
+            <Route path='/home_delicacies/payment' element={<Payment/>}/>
           </Routes>
           <Footer/>
         </Router>

@@ -9,9 +9,9 @@ const Navbar = React.memo(() => {
     return(
          <nav className='nav-bar'>
                              <ul>
-                                <li><Link to='/home/pickles' >Pickles</Link></li>
-                                <li><Link to='/home/podi' >Podi</Link></li>
-                                <li><Link to='/home/snacks'>Evening Snacks</Link></li>
+                                <li><Link to='/home_delicacies/home/pickles' >Pickles</Link></li>
+                                <li><Link to='/home_delicacies/home/podi' >Podi</Link></li>
+                                <li><Link to='/home_delicacies/home/snacks'>Evening Snacks</Link></li>
                             </ul>    
                      </nav>
     );

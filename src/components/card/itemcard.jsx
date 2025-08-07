@@ -9,7 +9,7 @@ export default function ItemCard({item}) {
 
     return(
     <div className='item-card'>
-        <Link to={`/product/${item.name.toLowerCase().replace(/\s+/g, '-')}`}>
+        <Link to={`/home_delicacies/product/${item.name.toLowerCase().replace(/\s+/g, '-')}`}>
         <img src={samplePic} alt={item.name} />
         <h3>{item.name}</h3>
        <div className='tagline'>

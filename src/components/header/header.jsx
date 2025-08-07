@@ -14,8 +14,8 @@ export default function Header() {
                  <div className="logo">Home Delicacies</div>
             
                  <nav className="nav-links">
-                     <Link to='/home'><i className="fas fa-solid fa-house"></i></Link>
-                     <Link to='/cart'>
+                     <Link to='/home_delicacies/home'><i className="fas fa-solid fa-house"></i></Link>
+                     <Link to='/home_delicacies/cart'>
                      <i className="fas fa-shopping-cart"></i>
                      {totalItems > 0 && <span className='cart-count'>{totalItems}</span>}
                      </Link>

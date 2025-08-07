@@ -19,7 +19,7 @@ export default function Cart() {
     return (
         <div className='cart-container'>
             <div className='breadcrumb'>
-               <Link to="/">Home</Link> / <Link to="/cart">Cart</Link>   
+               <Link to="/home_delicacies/">Home</Link> / <Link to="/cart">Cart</Link>   
             </div>
             <h3>Your Cart</h3>
             <div>
@@ -46,7 +46,7 @@ export default function Cart() {
                 ))}
                 <div className='cart-total'>
                     <h2>subTotal: Rs. {totalPrice}/-</h2>
-                    <Link to='/payment'>
+                    <Link to='/home_delicacies/payment'>
                         <button className='payment-button'>Click to proceed</button>
                     </Link>
                 </div>
