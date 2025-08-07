@@ -39,7 +39,7 @@ function App() {
           <Header/>
           <Navbar/>
           <Routes>
-            <Route path='/' element={<Home />}/>
+            <Route path='/home_delicacies' element={<Home />}/>
             <Route path='/home' element={<Home />}/>
             <Route path='/home/pickles' element={<PicklesCategory/>}/>
             <Route path='/home/podi' element={<PodiCategory/>}/>
