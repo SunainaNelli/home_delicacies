@@ -37,7 +37,7 @@ function App() {
       <CartProvider>
         <Router>
           <Header/>
-          <Home/>
+          
           <Navbar/>
           <Routes>
             <Route path='/home_delicacies' element={<Home />}/>
