@@ -2,7 +2,7 @@
   "name": "home_delicacies",
   "private": true,
   "version": "0.0.0",
-  "homepage": "https://sunainanelli.github.io/home",
+  "homepage": "https://sunainanelli.github.io/home-delicacies",
   "type": "module",
   "scripts": {
     "dev": "vite",

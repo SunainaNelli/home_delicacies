@@ -40,7 +40,7 @@ function App() {
           
           <Navbar/>
           <Routes>
-            <Route path='/home_delicacies/' element={<Home />}/>
+            <Route path='/home_delicacies' element={<Home />}/>
             <Route path='/home_delicacies/home' element={<Home />}/>
             <Route path='/home_delicacies/home/pickles' element={<PicklesCategory/>}/>
             <Route path='/home_delicacies/home/podi' element={<PodiCategory/>}/>
